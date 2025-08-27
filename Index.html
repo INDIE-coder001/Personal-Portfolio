@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="home" class="section home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Abdulrahman. Explore my work and get to know me!</p>
+        </section>
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with experience in web technologies. I love building creative and functional websites.</p>
+        </section>
+        <section id="projects" class="section projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Quiz App</h3>
+                    <p>This is a fun way to learn and it tests your IQ giving you your feedback at the end.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Cross Roads</h3>
+                    <p>Well it is a text based game where you choose out of a given set of choices and choose the correct next move to success</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+        <section id="contact" class="section contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+                <div id="formMessage"></div>
+            </form>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Abdulrahman. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
